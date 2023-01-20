@@ -1,0 +1,7 @@
+services:
+  compilerbook:
+    build: .
+    volumes:
+      - .:/home/user/compilerbook
+    working_dir: /home/user/compilerbook
+    platform: linux/x86_64
